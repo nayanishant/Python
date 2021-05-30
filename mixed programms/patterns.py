@@ -1,26 +1,26 @@
 # Pattern using for loop
 # Using for loop
-# def pattern_of(value):
-#     for i in range (0, value):
-#         for j in range (0, i + 1):
-#             print("*", end = " ")
-#         print()
+def pattern_of(value):
+    for i in range (0, value):
+        for j in range (0, i + 1):
+            print("*", end = " ")
+        print()
 
-# value = int(input("Enter the value: "))
-# pattern_of(value)
+# value = int(input("Enter the value: ")) #To call function "pattern_of" uncomment value
+# pattern_of(value) #To call function "pattern_of" uncomment pttern_of()
 
 # Pattern Using while loop
-# def pattern_of2(value):
-#     i = 1
-#     while i <= 5:
-#         j = 1
-#         while j <= i:
-#             print("*", end = " ")
-#             j = j + 1
-#         print()
-#         i = i + 1
+def pattern_of2(value):
+    i = 1
+    while i <= 5:
+        j = 1
+        while j <= i:
+            print("*", end = " ")
+            j = j + 1
+        print()
+        i = i + 1
 
-# pattern_of2(5)
+# pattern_of2(5) #To call function "pattern_of2" uncomment pttern_of2()
 
 #  square pattern
 def sq_pattern(value):
@@ -32,4 +32,4 @@ def sq_pattern(value):
                 print(" ", end = " ")
         print()
 
-sq_pattern(5)
+# sq_pattern(5) #To call function "sq_pattern" uncomment sq_pttern()
