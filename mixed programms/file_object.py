@@ -15,8 +15,8 @@ with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'r+') as f:
     # read_file()
 
     # Splitting words of all three lines
-    def find():
+    def split_it():
         for line in f:
             print(line.split())
 
-    # find()
+    # split_it()
