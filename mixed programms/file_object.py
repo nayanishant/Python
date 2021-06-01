@@ -1,3 +1,4 @@
+import re
 with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'r+') as f:
     # Read lines of file through iteration
     def word():
@@ -13,7 +14,8 @@ with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'r+') as f:
 
     # read_file()
 
-    
-        
+    def find():
+        for line in f:
+            print(line.split())
 
-    
+    # find()
