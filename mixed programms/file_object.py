@@ -20,3 +20,12 @@ with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'r+') as f:
             print(line.split())
 
     # split_it()
+
+    # Finding words
+    def find():
+        for line in f:
+            for text in line:
+                if (text[0] == "T"):
+                    print(line, end = "")
+
+    find()
