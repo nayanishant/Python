@@ -1,5 +1,5 @@
 import re  # Regular Expression
-with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'r+') as f:
+with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'a+') as f:
     # Read lines of file through iteration
     def word():
         for line in f:
@@ -20,3 +20,10 @@ with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'r+') as f:
             print(line.split())
 
     # split_it()
+
+    # Adding something in the file
+    def adding():
+        about = "My name is Nishant Nayan."
+        f.write(about)
+    
+    adding()
