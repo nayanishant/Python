@@ -33,3 +33,14 @@ def sq_pattern(value):
         print()
 
 # sq_pattern(5) #To call function "sq_pattern" uncomment sq_pttern()
+
+# Pyramid
+def pyramid(size):
+    for i in range(0, size):
+        for j in range(0, size - i):
+            print(" ", end = "")
+        for k in range(0, 2*i+1):
+            print("0", end = "")
+        print("")
+
+# pyramid(5)
