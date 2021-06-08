@@ -28,4 +28,4 @@ with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'a+') as f:
         name = (input("Enter your name\n"))
         f.write(name.capitalize)
     
-    adding()
+    # adding()
