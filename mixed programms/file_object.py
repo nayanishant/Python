@@ -25,7 +25,5 @@ with open ('D:\Knowledge\Programming Language\Exercise\Tw_text.txt', 'a+') as f:
     def adding():
         about = "My name is Nishant Nayan."
         f.write(about)
-        name = (input("Enter your name\n"))
-        f.write(name.capitalize)
     
-    # adding()
+    adding()
